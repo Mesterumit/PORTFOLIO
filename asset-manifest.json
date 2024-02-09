@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.14dff85b.css",
+    "main.js": "/porfolio/static/js/main.7d24e450.js",
+    "static/media/BLOG-APP.gif": "/porfolio/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
+    "static/media/Appointment.gif": "/porfolio/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
+    "static/media/blogapp.gif": "/porfolio/static/media/blogapp.8865718b94e15f0cacbf.gif",
+    "static/media/Profile.png": "/porfolio/static/media/Profile.0133761a776ff3f8b158.png",
+    "static/media/mongo.jpg": "/porfolio/static/media/mongo.603d315fd1e9092b8f89.jpg",
+    "static/media/Node.png": "/porfolio/static/media/Node.df5cf43cc62b9dbaef55.png",
+    "static/media/js.png": "/porfolio/static/media/js.1053926cf2f54323bdc1.png",
+    "static/media/css.png": "/porfolio/static/media/css.ad1826b69113db4a265d.png",
+    "static/media/github.png": "/porfolio/static/media/github.498c4786b96ccf47ed52.png",
+    "index.html": "/porfolio/index.html",
+    "main.14dff85b.css.map": "/porfolio/static/css/main.14dff85b.css.map",
+    "main.7d24e450.js.map": "/porfolio/static/js/main.7d24e450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14dff85b.css",
+    "static/js/main.7d24e450.js"
+  ]
+}
