@@ -70,11 +70,6 @@ const Navbar = () => {
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className=' w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-800'>
-                        <a className=" flex justify-between items-center text-gary w-full " href='https://docs.google.com/document/d/1nudewcnZLziCG-J6DAs0HCOgcetVss0X/edit' target='_blank'>
-                            Resume <BsFillPersonLinesFill size={30} />
-                        </a>
-                    </li>
                 </ul>
             </div>
 
