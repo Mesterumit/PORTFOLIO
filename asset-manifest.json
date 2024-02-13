@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a72da89.css",
+    "main.js": "/static/js/main.d331f806.js",
+    "static/media/BLOG-APP.gif": "/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
+    "static/media/Appointment.gif": "/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
+    "static/media/blogapp.gif": "/static/media/blogapp.8865718b94e15f0cacbf.gif",
+    "static/media/Profile.png": "/static/media/Profile.0133761a776ff3f8b158.png",
+    "static/media/mongo.jpg": "/static/media/mongo.603d315fd1e9092b8f89.jpg",
+    "static/media/Node.png": "/static/media/Node.df5cf43cc62b9dbaef55.png",
+    "static/media/js.png": "/static/media/js.1053926cf2f54323bdc1.png",
+    "static/media/css.png": "/static/media/css.ad1826b69113db4a265d.png",
+    "static/media/github.png": "/static/media/github.498c4786b96ccf47ed52.png",
+    "index.html": "/index.html",
+    "main.9a72da89.css.map": "/static/css/main.9a72da89.css.map",
+    "main.d331f806.js.map": "/static/js/main.d331f806.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a72da89.css",
+    "static/js/main.d331f806.js"
+  ]
+}
