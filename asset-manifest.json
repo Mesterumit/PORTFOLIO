@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.14dff85b.css",
-    "main.js": "/portfolio/static/js/main.93764a18.js",
-    "static/media/BLOG-APP.gif": "/portfolio/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
-    "static/media/Appointment.gif": "/portfolio/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
-    "static/media/blogapp.gif": "/portfolio/static/media/blogapp.8865718b94e15f0cacbf.gif",
-    "static/media/Profile.png": "/portfolio/static/media/Profile.0133761a776ff3f8b158.png",
-    "static/media/mongo.jpg": "/portfolio/static/media/mongo.603d315fd1e9092b8f89.jpg",
-    "static/media/Node.png": "/portfolio/static/media/Node.df5cf43cc62b9dbaef55.png",
-    "static/media/js.png": "/portfolio/static/media/js.1053926cf2f54323bdc1.png",
-    "static/media/css.png": "/portfolio/static/media/css.ad1826b69113db4a265d.png",
-    "static/media/github.png": "/portfolio/static/media/github.498c4786b96ccf47ed52.png",
-    "index.html": "/portfolio/index.html",
-    "main.14dff85b.css.map": "/portfolio/static/css/main.14dff85b.css.map",
-    "main.93764a18.js.map": "/portfolio/static/js/main.93764a18.js.map"
+    "main.css": "/PORTFOLIO/static/css/main.9a72da89.css",
+    "main.js": "/PORTFOLIO/static/js/main.de709429.js",
+    "static/media/BLOG-APP.gif": "/PORTFOLIO/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
+    "static/media/Appointment.gif": "/PORTFOLIO/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
+    "static/media/blogapp.gif": "/PORTFOLIO/static/media/blogapp.8865718b94e15f0cacbf.gif",
+    "static/media/Profile.png": "/PORTFOLIO/static/media/Profile.0133761a776ff3f8b158.png",
+    "static/media/mongo.jpg": "/PORTFOLIO/static/media/mongo.603d315fd1e9092b8f89.jpg",
+    "static/media/Node.png": "/PORTFOLIO/static/media/Node.df5cf43cc62b9dbaef55.png",
+    "static/media/js.png": "/PORTFOLIO/static/media/js.1053926cf2f54323bdc1.png",
+    "static/media/css.png": "/PORTFOLIO/static/media/css.ad1826b69113db4a265d.png",
+    "static/media/github.png": "/PORTFOLIO/static/media/github.498c4786b96ccf47ed52.png",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.9a72da89.css.map": "/PORTFOLIO/static/css/main.9a72da89.css.map",
+    "main.de709429.js.map": "/PORTFOLIO/static/js/main.de709429.js.map"
   },
   "entrypoints": [
-    "static/css/main.14dff85b.css",
-    "static/js/main.93764a18.js"
+    "static/css/main.9a72da89.css",
+    "static/js/main.de709429.js"
   ]
 }
