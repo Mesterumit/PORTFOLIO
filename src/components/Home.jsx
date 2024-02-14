@@ -1,8 +1,14 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Home = () => {
+    // const navigate = useNavigate();
+
+    // const goWork=()=>{
+    //     navigate('/works')
+    // }
     return (
         <div name='home' className='h-screen bg-[#0a192f] w-screen object-cover' style={{width:'100%'}}>
 
@@ -19,8 +25,11 @@ const Home = () => {
                     Explore my portfolio for exciting possibilities ahead.
                 </p>
                 <div>
-                    <button className=' text-white border-2 px-10 py-3 ml-10 flex items-center hover:bg-blue-600 hover:border-blue-600'>View Work
-                        <HiArrowNarrowRight className='ml-3 group  ' /> </button>
+                <Link to='work' className='flex text-white border-2 items-center px-4 py-3 ml-10 hover:bg-blue-600 hover:border-blue-600' smooth={true} duration={500} style={{maxWidth:'16%'}} >View Works
+                   
+                        <HiArrowNarrowRight className='ml-3 group  ' />                  
+                </Link>
+             
                 </div>
             </div>
         </div>
