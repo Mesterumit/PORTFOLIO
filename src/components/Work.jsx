@@ -21,27 +21,30 @@ const Work = () => {
             title: "Appointment",
             path: "https://github.com/Mesterumit/Appointment-App",
             gif: `${Appointment}`,
-            demoUrl: 'https://mesterumit.github.io/Appointment-App/'
+            demoUrl: 'https://mesterumit.github.io/Appointment-App/',
+            detail:'The Appointment Booking App is a user-friendly web application built with React.js, HTML, CSS, and Bootstrap. It simplifies scheduling appointments with doctors by allowing patients to browse available doctors and book appointments based on their preferences and availability.'
         },
         {
             title: "NBA-APP",
             path: "https://github.com/Mesterumit/NBA_APP.git",
             gif: 'https://raw.githubusercontent.com/Mesterumit/NBA_APP/main/public/ezgif.com-crop.gif',
-            demoUrl: 'https://mesterumit.github.io/NBA_APP/'
+            demoUrl: 'https://mesterumit.github.io/NBA_APP/',
+            detail:"The NBA Player Card Application is a web-based platform designed to showcase information and statistics about NBA players. Developed using React.js, HTML, CSS, and Bootstrap, the application offers an intuitive interface for users to explore  the player's career stats."
         },
         {
             title: 'Tour-Places',
             path: "https://github.com/Mesterumit/Tour_Places",
             gif: "https://raw.githubusercontent.com/Mesterumit/Tour_Places/main/public/ezgif.com-video-to-gif-converter.gif",
-            demoUrl: "https://mesterumit.github.io/Tour_Places/"
+            demoUrl: "https://mesterumit.github.io/Tour_Places/",
+            detail:"The Tour Place app uses React and SASS to display captivating destinations. With media queries for responsiveness and mock data, users can explore various places effortlessly."
 
         },
         {
             title: 'Blog-App-EJS',
             path: "https://github.com/Mesterumit/BLOG-APP-EJS",
             gif: `${blogAppGif}`,
-            demoUrl: "https://blog-tamplate-ejs-app.onrender.com"
-
+            demoUrl: "https://blog-tamplate-ejs-app.onrender.com",
+            detail:"The Blog App utilizes EJS templates to render HTML and enables users to interact with the server through GET and POST requests for updating content."
         }
     ]
 
