@@ -3,6 +3,7 @@ import { useState } from 'react'
 import blogAppGif from '../GIF/blogapp.gif'
 import BLOGAPP from '../GIF/BLOG-APP.gif'
 import Appointment from '../GIF/Appointment.gif'
+import Horoscope from '../GIF/Horoscope.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Main.scss";
 
@@ -45,6 +46,13 @@ const Work = () => {
             gif: `${blogAppGif}`,
             demoUrl: "https://blog-tamplate-ejs-app.onrender.com",
             detail:"The Blog App utilizes EJS templates to render HTML and enables users to interact with the server through GET and POST requests for updating content."
+        },
+        {
+            title: 'Horoscope',
+            path: "https://github.com/Mesterumit/Horoscope_App",
+            gif: `${Horoscope}`,
+            // demoUrl: "https://blog-tamplate-ejs-app.onrender.com",
+            detail:"The Horoscope App uses React and SASS,HTML to display image and information about sign. With media queries for responsiveness and mock data, users can explore various sign"
         }
     ]
 
@@ -95,7 +103,7 @@ const Work = () => {
                             </div>
 
                             <div className='pt-4 absolute -right-1 -top-6 opacity-75 h-10'>
-                                <a href={item.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
+                                <a href={item?.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
                                     {/* Using target="_blank" to open the link in a new tab */}
                                     <button className='text-center rounded-lg px-4  m-2 bg-pink-600  hover:bg-blue-700 text-white-700 font-bold text-sm'>
                                         Demo
