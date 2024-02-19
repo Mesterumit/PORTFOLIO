@@ -10,7 +10,7 @@ const Home = () => {
     //     navigate('/works')
     // }
     return (
-        <div name='home' className='h-screen bg-[#0a192f] w-screen object-cover' style={{width:'100%'}}>
+        <div name='home' className='h-screen bg-[#0a192f] w-screen object-cover pt-12' style={{width:'100%'}}>
 
             {/* Container */}
             <div className='max-w[1000px] mx-auto px-8 flex flex-col justify-center h-full '>
@@ -25,7 +25,7 @@ const Home = () => {
                     Explore my portfolio for exciting possibilities ahead.
                 </p>
                 <div>
-                <Link to='work' className='flex text-white border-2 items-center px-4 py-3 ml-10 hover:bg-blue-600 hover:border-blue-600' smooth={true} duration={500} style={{maxWidth:'16%'}} >View Works
+                <Link to='work' className='flex text-white border-2 items-center px-4 py-3 ml-10 hover:bg-blue-600 hover:border-blue-600 min-w-32 ' smooth={true} duration={500} style={{maxWidth:'8%'}} >View Works
                    
                         <HiArrowNarrowRight className='ml-3 group  ' />                  
                 </Link>

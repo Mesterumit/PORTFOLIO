@@ -7,7 +7,7 @@ import Node from '../assets/Node.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full screen bg-[#0a192f] text-gray-300 py-20'>
+        <div name='skills' className='w-full screen bg-[#0a192f] text-gray-300 pt-20 mx-auto   mr-20 '>
             {/* Container */}
             <div className='max-w-[1000px]  px-20 p-4 flex flex-col justif-content w-full h-full '
             >

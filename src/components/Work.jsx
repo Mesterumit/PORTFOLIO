@@ -59,10 +59,10 @@ const Work = () => {
 
     console.log(works[2].gif)
     return (
-        <div name='work' className=' card-container w-full mx-auto md:h-100vh text-gray-300  bg-[#0a192f] py-10  h-100 '>
+        <div name='work' className=' card-container w-full mx-auto md:h-100vh text-gray-300  bg-[#0a192f] py-10  h-100 ' >
 
             <div >
-                <div className=' mx-auto px-20  ml-20 mr-20 mb-10'>
+                <div className=' mx-auto  ml-20 mr-20 mb-10 '>
                     <p className='text-4xl mx-auto font-bold inline border-b-4 text-gray-300 border-pink-600'>
                         Works
                     </p>
@@ -72,16 +72,16 @@ const Work = () => {
                 {/* anything over md="cols-3"  */}
                 {/* Card container */}
                 <div
-                    className='ml-20  grid grid-cols sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-center  gap-4 '
+                    className='ml-20  grid grid-cols sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  xlg:grid-cols-4 text-center  gap-4 min-w-48  max-w-50 pb-10 max-h-18'
                 >
 
                     {/* card item */}
 
                     {works.map((item, index) => (
-                        <div className="cards rounded-lg mb-10 shadow-2xl group ">
+                        <div className="cards rounded-lg mb-10 shadow-2xl group pr-5 border  ">
                         <div
                             key={index}
-                            className='rounded-lg hover:scale-110 hover:z-50  border-4 border-indigo-800 mb-10 shadow-2xl'
+                            className='rounded-lg hover:scale-110 hover:z-50  border-4 border-indigo-800 mb-10 shadow-2xl '
                             style={{
                                 backgroundImage: item.gifLocal ? `url(${item.gifLocal})` : `url(${item.gif})`,
                                 backgroundSize: 'cover',
@@ -96,7 +96,7 @@ const Work = () => {
                                 className=' absolute left-3 -top-2   bg-white text-xl font-bold text-[#333399] tracking-wider rounded-lg'>
                                 {item.title} 
                             </span>
-                            <div className="card-over ">
+                            <div className="card-over">
                                 <p  className="text-sm font-bold ">
                                     {item.detail}
                                 </p>
