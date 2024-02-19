@@ -4,13 +4,9 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from "react-scroll";
 
 const Home = () => {
-    // const navigate = useNavigate();
 
-    // const goWork=()=>{
-    //     navigate('/works')
-    // }
     return (
-        <div name='home' className='h-screen bg-[#0a192f] w-screen object-cover pt-12' style={{width:'100%'}}>
+        <div name='home' className='h-100 bg-[#0a192f] w-screen object-cover pt-20' style={{width:'100%'}}>
 
             {/* Container */}
             <div className='max-w[1000px] mx-auto px-8 flex flex-col justify-center h-full '>

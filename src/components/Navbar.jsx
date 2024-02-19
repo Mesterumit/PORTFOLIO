@@ -12,7 +12,7 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-800 text-white z-10'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-800 text-white z-10 mb-20'>
 
             <div>
                 <img src={Logo} alt="logo" style={{ width: '70px' }} className='rounded-full' />
