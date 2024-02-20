@@ -66,7 +66,7 @@ const Work = () => {
                     <p className='text-4xl mx-auto font-bold inline border-b-4 text-gray-300 border-pink-600'>
                         Works
                     </p>
-                    <p className='py-6'>Check out some of my recent work</p>
+                    <p className='py-6'>Check out some of my recent works</p>
                 </div>
                 {/* anything over sm="cols-2"  */}
                 {/* anything over md="cols-3"  */}
@@ -93,7 +93,7 @@ const Work = () => {
                             }} >    
 
                             <span
-                                className=' absolute left-3 -top-2   bg-white text-xl font-bold text-[#333399] tracking-wider rounded-lg'>
+                                className='absolute left-0 -top-1   bg-white text-xl font-bold text-[#333399] tracking-wider rounded-lg'>
                                 {item.title} 
                             </span>
                             <div className="card-over">
@@ -102,7 +102,7 @@ const Work = () => {
                                 </p>
                             </div>
 
-                            <div className='pt-4 absolute -right-1 -top-6 opacity-75 h-10'>
+                            <div className='pt-4 absolute -right-2 -top-6 opacity-75 h-10'>
                                 <a href={item?.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
                                     {/* Using target="_blank" to open the link in a new tab */}
                                     <button className='text-center rounded-lg px-4  m-2 bg-pink-600  hover:bg-blue-700 text-white-700 font-bold text-sm'>
