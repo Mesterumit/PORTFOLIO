@@ -63,10 +63,10 @@ const Work = () => {
 
             <div >
                 <div className=' mx-auto  ml-20 mr-20 '>
-                    <p className='text-4xl mx-auto font-bold inline border-b-4 text-gray-300 border-pink-600'>
+                    <p className='text-3xl mx-auto font-bold inline border-b-4 text-gray-300 border-pink-600 text-white'>
                         Works
                     </p>
-                    <p className='py-6'>Check out some of my recent works</p>
+                    <p className='py-6 text-lg'>Check out some of my recent works</p>
                 </div>
                 {/* anything over sm="cols-2"  */}
                 {/* anything over md="cols-3"  */}
@@ -78,10 +78,10 @@ const Work = () => {
                     {/* card item */}
 
                     {works.map((item, index) => (
-                        <div className="cards rounded-lg mb-10 shadow-2xl group pr-5  ">
+                        <div className="cards rounded-lg  group h-full ">
                         <div
                             key={index}
-                            className='rounded-lg hover:scale-110 hover:z-50  border-4 border-indigo-800 mb-10 shadow-2xl '
+                            className='rounded-lg hover:scale-110 hover:z-50  border-2 border-cyan-500 mb-10 shadow-2xl shadow-cyan-500/50 h-72 '
                             style={{
                                 backgroundImage: item.gifLocal ? `url(${item.gifLocal})` : `url(${item.gif})`,
                                 backgroundSize: 'cover',
@@ -89,11 +89,10 @@ const Work = () => {
                                 backgroundPosition: 'center',
                                 padding: '5px',
                                 position: 'relative',
-                                height: '200px',
                             }} >    
 
                             <span
-                                className='absolute left-0 -top-1   bg-white text-xl font-bold text-[#333399] tracking-wider rounded-lg'>
+                                className='absolute left-1  w-1/3 bg-white  font-bold text-black tracking-wider rounded-md'>
                                 {item.title} 
                             </span>
                             <div className="card-over">
@@ -102,16 +101,16 @@ const Work = () => {
                                 </p>
                             </div>
 
-                            <div className='pt-4 absolute -right-2 -top-6 opacity-75 h-10'>
+                            <div className='pt-4 absolute -right-1 -top-5 h-10'>
                                 <a href={item?.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
                                     {/* Using target="_blank" to open the link in a new tab */}
-                                    <button className='text-center rounded-lg px-4  m-2 bg-pink-600  hover:bg-blue-700 text-white-700 font-bold text-sm'>
+                                    <button className='text-center rounded-lg px-3  m-2 bg-green-500 hover:bg-blue-700  text-white font-bold text-sm tracking-widest'>
                                         Demo
                                     </button>
                                 </a>
                                 <a href={item.path} target="_blank" rel="noopener noreferrer">
                                     {/* Assuming 'item' has a 'codeUrl' property for the code link */}
-                                    <button className='text-center rounded-lg px-4  m-2 bg-pink-600 hover:bg-blue-600 text-white-700 font-bold text-sm'>
+                                    <button className='text-center rounded-lg px-3  m-2 bg-green-500  hover:bg-blue-600 text-white font-bold text-sm tracking-widest'>
                                         Code
                                     </button>
                                 </a>

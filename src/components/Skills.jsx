@@ -4,6 +4,9 @@ import GITHUB from '../assets/github.png'
 import JS from '../assets/js.png'
 import MONGO from '../assets/mongo.jpg'
 import Node from '../assets/Node.png'
+import React from '../assets/react-logo.png'
+import Ts from '../assets/TypeScript.png'
+import sql from '../assets/SQL.png'
 
 const Skills = () => {
     return (
@@ -13,8 +16,8 @@ const Skills = () => {
             >
                 <div >
                     {/* inline helping to keep under line as much as text length */}
-                    <p className=' text-4xl font-bold inline border-b-4 border-pink-600' >Skills</p>
-                    <p className='py-3 px-4'>These are the technologies I have worked with.</p>
+                    <p className=' text-3xl font-bold inline border-b-4 border-pink-600 text-white' >Skills</p>
+                    <p className='text-lg py-3 px-4'>These are the technologies I have worked with.</p>
                 </div>
 
                 <div className='w-full  grid grid-cols sm:grid-cols-3 gap-4 text-center py-8 '>
@@ -23,24 +26,36 @@ const Skills = () => {
                         <p>CSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={EJS} alt='CSS icon' />
+                        <img className='w-20 mx-auto' src={EJS} alt='ejs icon' />
                         <p>EJS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto color-gray' src={GITHUB} alt='CSS icon' />
+                        <img className='w-20 mx-auto color-gray' src={GITHUB} alt='github icon' />
                         <p>GITHUB</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={JS} alt='CSS icon' />
+                        <img className='w-20 mx-auto' src={JS} alt='js icon' />
                         <p>JS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={MONGO} alt='CSS icon' />
+                        <img className='w-20 mx-auto' src={MONGO} alt='mongo icon' />
                         <p>MONGO</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mt-5 mx-auto' src={Node} alt='CSS icon' />
+                        <img className='w-20 mt-5 mx-auto' src={Node} alt='node icon' />
                         <p className='pt-4'>NODE</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mt-5 mx-auto' src={React} alt='react icon' />
+                        <p className='pt-4'>React</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mt-5 mx-auto' src={Ts} alt='ts icon' />
+                        <p className='pt-4'>TypeScript</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mt-5 mx-auto' src={sql} alt='sql icon' />
+                        <p className='pt-4'>SQL</p>
                     </div>
                 </div>
             </div>
