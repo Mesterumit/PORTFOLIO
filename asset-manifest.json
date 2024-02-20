@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.9bf37626.css",
-    "main.js": "/PORTFOLIO/static/js/main.307441a7.js",
+    "main.css": "/PORTFOLIO/static/css/main.e932c9f7.css",
+    "main.js": "/PORTFOLIO/static/js/main.9966b248.js",
     "static/media/Horoscope.gif": "/PORTFOLIO/static/media/Horoscope.08fd782661d91853c36e.gif",
     "static/media/BLOG-APP.gif": "/PORTFOLIO/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
     "static/media/Appointment.gif": "/PORTFOLIO/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
+    "static/media/TypeScript.png": "/PORTFOLIO/static/media/TypeScript.8a0dd8548a6278b10b7d.png",
     "static/media/blogapp.gif": "/PORTFOLIO/static/media/blogapp.8865718b94e15f0cacbf.gif",
     "static/media/Profile.png": "/PORTFOLIO/static/media/Profile.0133761a776ff3f8b158.png",
     "static/media/coding.png": "/PORTFOLIO/static/media/coding.c2967daa8a9eab8f2aa6.png",
+    "static/media/react-logo.png": "/PORTFOLIO/static/media/react-logo.6bcffb56bd0efaa47767.png",
     "static/media/mongo.jpg": "/PORTFOLIO/static/media/mongo.603d315fd1e9092b8f89.jpg",
     "static/media/Node.png": "/PORTFOLIO/static/media/Node.df5cf43cc62b9dbaef55.png",
     "static/media/js.png": "/PORTFOLIO/static/media/js.1053926cf2f54323bdc1.png",
     "static/media/css.png": "/PORTFOLIO/static/media/css.ad1826b69113db4a265d.png",
+    "static/media/SQL.png": "/PORTFOLIO/static/media/SQL.d1c240a2b1dfb6ff8eb5.png",
     "static/media/github.png": "/PORTFOLIO/static/media/github.498c4786b96ccf47ed52.png",
     "index.html": "/PORTFOLIO/index.html",
-    "main.9bf37626.css.map": "/PORTFOLIO/static/css/main.9bf37626.css.map",
-    "main.307441a7.js.map": "/PORTFOLIO/static/js/main.307441a7.js.map"
+    "main.e932c9f7.css.map": "/PORTFOLIO/static/css/main.e932c9f7.css.map",
+    "main.9966b248.js.map": "/PORTFOLIO/static/js/main.9966b248.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bf37626.css",
-    "static/js/main.307441a7.js"
+    "static/css/main.e932c9f7.css",
+    "static/js/main.9966b248.js"
   ]
 }
