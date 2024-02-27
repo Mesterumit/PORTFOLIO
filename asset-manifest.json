@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.e932c9f7.css",
-    "main.js": "/PORTFOLIO/static/js/main.9966b248.js",
+    "main.js": "/PORTFOLIO/static/js/main.0232b3d8.js",
     "static/media/Horoscope.gif": "/PORTFOLIO/static/media/Horoscope.08fd782661d91853c36e.gif",
     "static/media/BLOG-APP.gif": "/PORTFOLIO/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
     "static/media/Appointment.gif": "/PORTFOLIO/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
@@ -18,10 +18,10 @@
     "static/media/github.png": "/PORTFOLIO/static/media/github.498c4786b96ccf47ed52.png",
     "index.html": "/PORTFOLIO/index.html",
     "main.e932c9f7.css.map": "/PORTFOLIO/static/css/main.e932c9f7.css.map",
-    "main.9966b248.js.map": "/PORTFOLIO/static/js/main.9966b248.js.map"
+    "main.0232b3d8.js.map": "/PORTFOLIO/static/js/main.0232b3d8.js.map"
   },
   "entrypoints": [
     "static/css/main.e932c9f7.css",
-    "static/js/main.9966b248.js"
+    "static/js/main.0232b3d8.js"
   ]
 }
