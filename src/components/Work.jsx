@@ -15,7 +15,7 @@ const Work = () => {
             title: "BLOG-APP",
             path: "https://github.com/Mesterumit/Blog_APP-REACT-REDUX",
             gif: `${BLOGAPP}`,
-            demoUrl: 'https://mesterumit.github.io/Post-App/',
+            demoUrl: 'https://github.com/Mesterumit/Post-App',
             detail:'An online single-page web application designed to facilitate the management of orders and inventory. It offers functionalities to retrieve, add, edit, or delete posts.'
         },
         {
