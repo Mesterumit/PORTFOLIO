@@ -4,6 +4,7 @@ import blogAppGif from '../GIF/blogapp.gif'
 import BLOGAPP from '../GIF/BLOG-APP.gif'
 import Appointment from '../GIF/Appointment.gif'
 import Horoscope from '../GIF/Horoscope.gif'
+import TypeTodo from '../GIF/Type-Todo.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Main.scss";
 
@@ -11,6 +12,13 @@ import "./Main.scss";
 const Work = () => {
    
     const works = [
+        {
+            title: "TypeScript-Todo",
+            path: "https://github.com/Mesterumit/TypeScript_ToDo",
+            gif: `${TypeTodo}`,
+            demoUrl: ' https://mesterumit.github.io/TypeScript_ToDo/',
+            detail:'An online single-page web application designed to facilitate the management of todo list. It offers fununctionality to add new tasks, delete and mark is done by Typescript and React.'
+        },
         {
             title: "BLOG-APP",
             path: "https://github.com/Mesterumit/Post-App",
@@ -72,7 +80,7 @@ const Work = () => {
                 {/* anything over md="cols-3"  */}
                 {/* Card container */}
                 <div
-                    className='ml-20  grid grid-cols sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3  xlg:grid-cols-4 text-center  gap-4 min-w-64  max-w-50 pb-10 max-h-18'
+                    className='ml-20  grid grid-cols sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  xlg:grid-cols-4 text-center  gap-4 min-w-64  max-w-50 pb-10 max-h-18'
                 >
 
                     {/* card item */}

@@ -15,7 +15,6 @@ const Home = () => {
 
                     A seasoned Full Stack Developer at Nioyatech, I specialize in leading transformative projects,
                     delivering user-centric applications, and seamlessly integrating front-end and back-end components.
-                    With a commitment to excellence and a passion for impactful solutions,
                     I actively seek opportunities to contribute to the evolution of digital environments.
                     Explore my portfolio for exciting possibilities ahead.
                 </p>

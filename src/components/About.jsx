@@ -21,13 +21,12 @@ const About = () => {
                         then it will be in one column */}
                         <div className='sm:text-lefy text-2xl font-extralight text-white w-4/4'>
                         <p>
-                            Proficient in a diverse set of technologies, including JavaScript,
-                                React, Redux, CSS, Sass, MaterialUI, Tailwind, Node.js, MongoDB, PostgreSQL, LightSQL,
-                                Mongoose, and Sequelize, I bring a well-rounded skill set to development projects.
-                                Experienced in tools like Postman, Git, GitHub, and GitLab, I am passionate about ensuring
-                                streamlined workflows and maintaining high-quality code standards. Committed to contributing
-                                my skills to create scalable, user-centric solutions, I consistently meet the highest standards
-                                of excellence in web development.
+                        A proficient Software Developer with 3+ years of IT and work experience and Master’s Degree in Information Technologies,
+                         propelled by diligence and a results-oriented approach, supported by extensive professional experience and a robust
+                          educational foundation in software development. A dedicated professional at Nioya Tech LLC,
+                           afforded a significant opportunity to specialize in developing seamless and impactful web applications.
+                            An exceptional contributor with advanced skills in providing streamlined workflows and maintaining high-quality code standards,
+                             while crafting scalable, user-centric solutions. Bringing a comprehensive skill set to development projects, and consistently achieving the highest standards of excellence in web development.
                             </p>
                         </div >
                         <div  className=' overflow-hidden  w-4/6 h-3/4 place-content-center m-auto pr-5'>
