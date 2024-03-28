@@ -1,17 +1,30 @@
+import React from 'react'
+import { FaArrowAltCircleDown} from 'react-icons/fa'
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
 import coding from '../assets/coding.png'
+import Logo from '../assets/Profile.png'
+
 const About = () => {
+
     return (
-        <div name='about' className='w-screen h-100 bg-[#0a192f] text-gray-300 pt-4 mx-auto overflow-hidden '>
+        <div name='about' className='h-100 bg-[#0a192f] w-screen object-cover pt-20' style={{width:'100%'}}>
+            <div>
+                <img src={Logo} alt="logo" style={{ width: '70px', marginLeft:'40%',width:'250px',height:'250px',marginTop:'50px' }} className='rounded-full' />
+            </div>
+            {/* Container */}
+            <div className='max-w[1000px] mx-auto px-8 pt-20 flex flex-col justify-center h-full '>
+                <p className='text-3xl sm:text-4xl  text-amber-100 px-10'>Hi, My name is Umit Mester</p>
+                <p className='text-3xl sm:text-3xl py-4 px-10  text-white'>
 
-            <div className=' justify-center items-center w-100 h-full '>
-                <div className=' max-w[100%] w-full px-4'>
-                    <div className='pb-8 pl-4  '>
-
-                        <p className='ml-10 text-3xl font-bold inline border-b-4 border-pink-600  text-white'>
-                            About
-                        </p>
-                    </div>
-                    <br />
+                    A seasoned Frontend Web Developer at Nioyatech, I specialize in leading transformative projects,
+                    delivering user-centric applications,
+                    <br /> and seamlessly integrating front-end and back-end components.
+                    I actively seek opportunities to contribute to the evolution of digital environments.<br />
+                    Explore my portfolio for exciting possibilities ahead.
+                </p>
+                <div>
+                <br />
                     <div className=' w-full grid sm:grid-cols-1  md:grid-cols-2  ml-20 '>
                         {/* sm:text-rigth is pusing the text to right when 
                         screen get smaller */}
@@ -32,16 +45,16 @@ const About = () => {
                         <div  className=' overflow-hidden  w-4/6 h-3/4 place-content-center m-auto pr-5'>
                             <img className='shadow-xl shadow-indigo-500/40 h-4/5 ' src={coding }  alt={coding}   /> 
                         </div>
-
-                    </div>
+                <Link to='work' className='flex text-white border-2 items-center px-4 py-3 ml-10 hover:bg-blue-600 hover:border-blue-600 min-w-40 cursor-pointer rounded-xl  border-indigo-500  shadow-xl shadow-indigo-500/40' smooth={true} duration={500} style={{maxWidth:'13%',marginLeft:'90%',marginTop:'27px'}} >View Works
                    
+                        <FaArrowAltCircleDown className='ml-3 group  ' />                  
+                </Link>
+             
                 </div>
 
-
             </div>
-
+        </div>
         </div>
     )
 }
-
 export default About
