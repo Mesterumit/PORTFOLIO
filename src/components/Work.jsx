@@ -5,6 +5,7 @@ import BLOGAPP from '../GIF/BLOG-APP.gif'
 import Appointment from '../GIF/Appointment.gif'
 import Horoscope from '../GIF/Horoscope.gif'
 import TypeTodo from '../GIF/Type-Todo.gif'
+import STOCKAPP from '../GIF/STOCK-APPgif.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Main.scss";
 
@@ -25,6 +26,12 @@ const Work = () => {
             gif: `${BLOGAPP}`,
             demoUrl: 'https://mesterumit.github.io/Post-App/',
             detail:'An online single-page web application designed to facilitate the management of orders and inventory. It offers functionalities to retrieve, add, edit, or delete posts.'
+        },
+        {
+            title: "STOCK-APP",
+            path: "https://github.com/Mesterumit/stock-app",
+            gif: `${STOCKAPP }`,
+            detail:'An online single-page web application designed to facilitate the management of orders and inventory using react,redux. It offers functionalities to track purchase , sales and add new brands, categries'
         },
         {
             title: "Appointment",
@@ -110,12 +117,17 @@ const Work = () => {
                             </div>
 
                             <div className='pt-4 absolute -right-1 -top-5 h-10'>
-                                <a href={item?.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
+                                {item.demoUrl ? ( <a href={item?.demoUrl || '/'} target="_blank" rel="noopener noreferrer">
                                     {/* Using target="_blank" to open the link in a new tab */}
                                     <button className='text-center rounded-lg px-3  m-2 bg-green-500 hover:bg-blue-700  text-white font-bold text-sm tracking-widest'>
                                         Demo
                                     </button>
-                                </a>
+                                </a>):(
+                                    <p>{""}</p>
+                                )
+                                
+                                }
+                               
                                 <a href={item.path} target="_blank" rel="noopener noreferrer">
                                     {/* Assuming 'item' has a 'codeUrl' property for the code link */}
                                     <button className='text-center rounded-lg px-3  m-2 bg-green-500  hover:bg-blue-600 text-white font-bold text-sm tracking-widest'>
