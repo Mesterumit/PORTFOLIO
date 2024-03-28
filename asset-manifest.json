@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.e932c9f7.css",
-    "main.js": "/PORTFOLIO/static/js/main.39e491b2.js",
+    "main.css": "/PORTFOLIO/static/css/main.2e3449da.css",
+    "main.js": "/PORTFOLIO/static/js/main.583edda0.js",
+    "static/media/Type-Todo.gif": "/PORTFOLIO/static/media/Type-Todo.9af9ab7c449717ee7bb3.gif",
     "static/media/Horoscope.gif": "/PORTFOLIO/static/media/Horoscope.08fd782661d91853c36e.gif",
     "static/media/BLOG-APP.gif": "/PORTFOLIO/static/media/BLOG-APP.a4d4adf5fff4128f8e76.gif",
     "static/media/Appointment.gif": "/PORTFOLIO/static/media/Appointment.0efc0ae8e45ca96efe8f.gif",
@@ -17,11 +18,11 @@
     "static/media/SQL.png": "/PORTFOLIO/static/media/SQL.d1c240a2b1dfb6ff8eb5.png",
     "static/media/github.png": "/PORTFOLIO/static/media/github.498c4786b96ccf47ed52.png",
     "index.html": "/PORTFOLIO/index.html",
-    "main.e932c9f7.css.map": "/PORTFOLIO/static/css/main.e932c9f7.css.map",
-    "main.39e491b2.js.map": "/PORTFOLIO/static/js/main.39e491b2.js.map"
+    "main.2e3449da.css.map": "/PORTFOLIO/static/css/main.2e3449da.css.map",
+    "main.583edda0.js.map": "/PORTFOLIO/static/js/main.583edda0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e932c9f7.css",
-    "static/js/main.39e491b2.js"
+    "static/css/main.2e3449da.css",
+    "static/js/main.583edda0.js"
   ]
 }
