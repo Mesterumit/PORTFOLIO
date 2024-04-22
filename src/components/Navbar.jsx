@@ -12,7 +12,7 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-800 text-white z-10 mb-20'>
+        <div className='fixed w-screen h-[80px] flex justify-between items-center px-4 bg-gray-800 text-white z-10 mb-20 tw-bg-opacity-0'>
 
             {/* Menu */}
             {/* anything under 768px will be hidden  */}
@@ -44,22 +44,25 @@ const Navbar = () => {
 
 
             {/* social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 mt-3 mb-3'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 mt-3 mb-3 right-0'>
                 <ul>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-600">
-                        <a className=" flex justify-between items-center text-gary w-full" href='https://www.linkedin.com/in/umitmester' target='_blank'>
-                            Linkedin <FaLinkedin size={30} />
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-600 ">
+                        <a className=" flex justify-between items-center text-gary   " href='https://www.linkedin.com/in/umitmester' target='_blank'>
+                            Linkedin 
                         </a>
+                        <FaLinkedin   size={40} className=" flex justify-between ml-10"  />
                     </li>
                     <li className=' w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-black'>
                         <a className=" flex justify-between items-center text-gary w-full " href='https://github.com/Mesterumit' target='_blank'>
-                            GitHub <FaGithub size={30} />
+                            GitHub 
                         </a>
+                        <FaGithub size={30} className=" flex justify-between ml-12" />
                     </li>
                     <li className=' w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-300'>
-                        <a className=" flex justify-between items-center text-gary w-full " href='mailto:mesterumit@gmail.com' target='_blank'>
-                            Email <HiOutlineMail size={30} />
+                        <a className=" flex justify-between items-center text-gary " href='mailto:mesterumit@gmail.com' target='_blank'>
+                            Email  
                         </a>
+                        <HiOutlineMail size={35}  className=" flex justify-between ml-12" />
                     </li>
                 </ul>
             </div>

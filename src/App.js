@@ -5,7 +5,7 @@ import Work from  './components/Work'
 
 function App() {
   return (
-    <div >
+    <div className='overscroll-x-none' >
      <Navbar/>
      <About />
      <Skills />

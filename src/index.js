@@ -6,7 +6,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
-    <App className='w-screen bg-[#0a192f]'/>
+    <App className=' overscroll-x-none bg-[#0a192f]'/>
   
 );
 
