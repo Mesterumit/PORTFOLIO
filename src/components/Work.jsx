@@ -6,6 +6,7 @@ import Appointment from '../GIF/Appointment.gif'
 import Horoscope from '../GIF/Horoscope.gif'
 import TypeTodo from '../GIF/Type-Todo.gif'
 import STOCKAPP from '../GIF/STOCK-APPgif.gif'
+import BlogApi from '../GIF/Blog-api.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Main.scss";
 
@@ -13,6 +14,19 @@ import "./Main.scss";
 const Work = () => {
    
     const works = [
+        {
+            title: "Blog-API",
+            path: "https://github.com/Mesterumit/Bloog-Api-Node.js-express",
+            gif: `${BlogApi}`,
+            demoUrl: 'https://blog-api-14oc.onrender.com',
+            detail:'A RESTful API for managing todo tasks. Built with Node.js, Express.js, and MongoDB. Provides endpoints for creating, updating, and deleting tasks. Authentication is implemented using JSON Web Tokens (JWT). Documentation is available using Swagger/OpenAPI. Developed with TypeScript and React.js for a user-friendly frontend.'
+        },
+        {
+            title: "Stock-API",
+            path: "https://github.com/Mesterumit/STOCKAPP-API",
+            gif: `${BlogApi}`,
+            detail:'A RESTful API for managing todo tasks. Built with Node.js, Express.js, and MongoDB. Provides endpoints for creating, updating, and deleting tasks. Authentication is implemented using JSON Web Tokens (JWT). Documentation is available using Swagger/OpenAPI. Developed with TypeScript and React.js for a user-friendly frontend.'
+        },
         {
             title: "TypeScript-Todo",
             path: "https://github.com/Mesterumit/TypeScript_ToDo",
@@ -31,6 +45,7 @@ const Work = () => {
             title: "STOCK-APP",
             path: "https://github.com/Mesterumit/stock-app",
             gif: `${STOCKAPP }`,
+            demoUrl: 'https://stock-final-chi.vercel.app',
             detail:'An online single-page web application designed to facilitate the management of orders and inventory using react,redux. It offers functionalities to track purchase , sales and add new brands, categries'
         },
         {
